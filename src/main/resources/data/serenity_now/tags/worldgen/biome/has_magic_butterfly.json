@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:flower_forest",
+    {
+      "id": "nomansland:lavender_field",
+      "required": false
+    },
+    {
+      "id": "windswept:lavender_fields",
+      "required": false
+    },
+    {
+      "id": "windswept:lavender_hills",
+      "required": false
+    }
+  ]
+}

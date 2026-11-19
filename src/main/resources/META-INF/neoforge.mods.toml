@@ -1,0 +1,49 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+issueTrackerURL = "https://github.com/davidjjung/serenitynow/issues"
+license = "MIT License"
+
+[[mixins]]
+config = "serenity_now.mixins.json"
+
+[[mods]]
+modId = "serenity_now"
+version = "${mod_version}"
+logoFile = "logo.png"
+itemIcon = "minecraft:dirt"
+configBackground = "minecraft:textures/block/dirt.png"
+authors = "DavigJ"
+credits = "Noodlescript"
+displayURL = "https://modrinth.com/mod/serenity-now"
+displayName = "Serenity Now"
+description = '''
+    An Environmental add-on that expands upon the Serenity effect.
+    '''
+
+[[dependencies.serenity_now]]
+modId = "minecraft"
+type = "required"
+versionRange = "[${mc_version}]"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.serenity_now]]
+modId = "neoforge"
+type = "required"
+versionRange = "[${neoforge},)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.serenity_now]]
+modId = "environmental"
+type = "required"
+versionRange = "[5.0.1,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.serenity_now]]
+modId = "naturalist"
+type = "optional"
+versionRange = "[2.0.7,)"
+ordering = "AFTER"
+side = "BOTH"

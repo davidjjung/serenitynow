@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "additions": [
+    {
+      "entry": "serenity_now:butterfly#magic",
+      "value": "#serenity_now:variant/butterfly/magic"
+    }
+  ]
+}

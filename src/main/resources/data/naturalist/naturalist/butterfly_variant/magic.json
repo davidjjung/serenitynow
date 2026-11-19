@@ -1,0 +1,5 @@
+{
+  "texture": "serenity_now:entity/butterfly/magic",
+  "item_model": "serenity_now:item/variant/magic",
+  "biomes": "#serenity_now:variant/butterfly/magic"
+}
